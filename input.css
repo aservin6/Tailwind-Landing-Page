@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  min-height: 100vh;
+}
+
+#heroSection {
+  background-image: url("../images/akuma-keyboard-selection.png");
+  background-repeat: no-repeat;
+  background-size: 350px auto;
+  background-position: center 25px;
+}
+
+#pricingBanner {
+  background-image: url("../images/akuma-laser-steel-keycaps-selection.png");
+  background-repeat: no-repeat;
+  background-size: 350px auto;
+  background-position: center;
+}
+
+
+@media (min-width: 768px) {
+  #heroSection {
+    background-image: url("../images/akuma-keyboard-selection.png");
+    background-repeat: no-repeat;
+    background-size: 525px auto;
+    background-position: center 25px;
+  }
+  
+  #pricingBanner {
+    background-image: url("../images/akuma-laser-steel-keycaps-selection.png");
+    background-repeat: no-repeat;
+    background-size: 525px auto;
+    background-position: center;
+  }
+
+}
+
+@media (min-width: 976px) {
+  #heroSection {
+    background-image: url("../images/akuma-keyboard-selection.png");
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+    background-position: center 25px;
+  }
+  
+  #pricingBanner {
+    background-image: url("../images/akuma-laser-steel-keycaps-selection.png");
+    background-repeat: no-repeat;
+    background-size: 700px auto;
+    background-position: center;
+  }
+
+}
+
+
